@@ -433,7 +433,6 @@ footer.jumbotron li > a {
 }
 .messages-body .messages-listing {
   height: 500px;
-  background: red;
 }
 @media (min-width: 768px) {
   .messages-body .messages-listing {
@@ -451,3 +450,62 @@ footer.messages {
   height: 200px;
   margin-bottom: 10px;
 }
+
+input.search_bar {
+  border: 1px solid #ccc;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 100px;
+  -moz-box-shadow: 2px 2px 3px #666;
+  -webkit-box-shadow: 2px 2px 3px #666;
+  box-shadow: 2px 2px 3px #666;
+  font-size: 20px;
+  padding: 4px 7px;
+  margin-left: 20px;
+  outline: 0;
+  -webkit-appearance: none;
+}
+input.search_bar:focus {
+  border-color: #339933;
+}
+
+.messages-textinput {
+  height: 100%;
+  width: 98%;
+  padding: 10px;
+   border: 1px solid #ccc;
+  -moz-box-shadow: 2px 2px 3px #666;
+  -webkit-box-shadow: 2px 2px 3px #666;
+  box-shadow: 2px 2px 3px #666;
+  border: none;
+  resize: none;
+}
+
+.btn {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 30px 40px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
